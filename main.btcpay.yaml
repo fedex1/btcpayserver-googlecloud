@@ -8,7 +8,7 @@ resources:
     # region: asia-northeast1
     region: us-east1
     # zone: asia-northeast1-b
-    zone: us-east1-b
+    zone: us-east1-c
     vmtype: custom-1-7680-ext
     # linuxType: ubuntu-1604-lts
     linuxType: ubuntu-2204-lts
