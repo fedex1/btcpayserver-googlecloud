@@ -5,15 +5,17 @@ resources:
   type: vm.jinja
   properties:
     ############  EDIT PROPERTY START HERE ##############
-    region: asia-northeast1
-    zone: asia-northeast1-b
+    # region: asia-northeast1
+    region: us-east1
+    # zone: asia-northeast1-b
+    zone: us-east1-a
     vmtype: custom-1-7680-ext
     linuxType: ubuntu-1604-lts
     diskSizeGb: 500
     startup-script: |
         #!/bin/bash
         ### mandatory settings ###
-        BTCPAY_HOST=btcpaytest.mycompany.net
+        BTCPAY_HOST=btcpaytest.tidalforce.org
         NBITCOIN_NETWORK=testnet
         BTCPAYGEN_CRYPTO1=btc
         BTCPAYGEN_LIGHTNING=lnd
